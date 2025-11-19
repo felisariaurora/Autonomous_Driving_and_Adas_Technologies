@@ -1,9 +1,8 @@
-2D Semantic Segmentation for ADAS
+#ADAS Project: 2D Semantic Segmentation
 
-**Course:** ADAS and Autonomous Driving  
-**Project Type:** Computer Vision / Semantic Segmentation  
-**Status:** In Progress
+## 📖 Introduction
+This repository contains the final project for the **ADAS and Autonomous Driving** course. 
+The goal is to address a key perception task: **Semantic Segmentation**.
 
-
-This repository contains the implementation of a Deep Learning model for **2D Semantic Segmentation** from a single RGB camera.
-**Goal:** Develop an algorithm capable of predicting semantic labels for each pixel.
+## 🎯 Project Goal
+Development of a deep learning-based algorithm able to predict semantic labels for each pixel starting from a single RGB image ($H \times W \times 3$), trained on a dataset with pixel-level annotations.
