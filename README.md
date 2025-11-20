@@ -13,4 +13,5 @@ The course is taught in **English**, worth **6 CFU**, and held at the **Departme
   This folder will be continuously updated as lectures progress.
 
 - **/project**  
-  Source code, scripts, and files developed for the final project of the course **2D Semantic Segmentation for ADAS**
+  Source code, scripts, and files developed for the final project of the course **2D Semantic Segmentation for ADAS**.
+  
