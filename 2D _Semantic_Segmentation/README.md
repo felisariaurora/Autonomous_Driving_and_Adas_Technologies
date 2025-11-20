@@ -6,7 +6,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![Framework](https://img.shields.io/badge/PyTorch-2.0-red.svg) 
-## 📌 Project Overview
+## Project Overview
 
 This repository contains the implementation of a Deep Learning model for **2D Semantic Segmentation** from a single RGB camera.
 
