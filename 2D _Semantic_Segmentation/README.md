@@ -4,7 +4,7 @@
 **Project Type:** Computer Vision / Semantic Segmentation  
 **Status:** In Progress
 
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![Framework](https://img.shields.io/badge/PyTorch-2.0-red.svg) 
 ## Project Overview
 
