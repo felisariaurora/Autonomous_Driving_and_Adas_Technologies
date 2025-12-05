@@ -8,10 +8,10 @@ The course is taught in **English**, worth **6 CFU**, and held at the **Departme
 
 ## 📂 Repository Structure
 
-- **/theory**  
-  Personal notes, summaries, and theoretical materials gathered during the course.  
-  This folder will be continuously updated as lectures progress.
+- appunti.pdf
+  Personal notes gathered during the course.  
+  
 
-- **/project**  
+- **/2D_Semantic_Segmentation**  
   Source code, scripts, and files developed for the final project of the course **2D Semantic Segmentation for ADAS**.
   
