@@ -1,7 +1,7 @@
 # 2D Semantic Segmentation for ADAS
 
 **Course:** ADAS and Autonomous Driving  
-**Project Type:** Computer Vision / Semantic Segmentation  
+**Project Type:** Semantic Segmentation  
 **Status:** In Progress
 
 ![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
