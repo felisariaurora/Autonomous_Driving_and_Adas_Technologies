@@ -1,8 +1,9 @@
-#Autonomous Driving and ADAS Technologies
+# Autonomous Driving and ADAS Technologies
 
 ![University](https://img.shields.io/badge/University-University%20of%20Parma-blue)
 ![Course](https://img.shields.io/badge/Course-Autonomous%20Driving-green)
-![Language](https://img.shields.io/badge/Language-English-orange)
+![Language](https://img.shields.io/badge/Language-English%20%7C%20Italiano-orange)
+![Python](https://img.shields.io/badge/Made%20with-Python-3776AB?logo=python&logoColor=white)
 ![Credits](https://img.shields.io/badge/Credits-6%20CFU-lightgrey)
 
 This repository serves as a collection of personal notes, study materials, and the final practical project for the course **Autonomous Driving and ADAS Technologies** (Code: 1010751).
