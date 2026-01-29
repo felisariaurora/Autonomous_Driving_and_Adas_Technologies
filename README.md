@@ -1,4 +1,4 @@
-# 🚗 Autonomous Driving and ADAS Technologies
+#Autonomous Driving and ADAS Technologies
 
 ![University](https://img.shields.io/badge/University-University%20of%20Parma-blue)
 ![Course](https://img.shields.io/badge/Course-Autonomous%20Driving-green)
