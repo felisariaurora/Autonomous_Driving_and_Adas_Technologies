@@ -16,7 +16,7 @@
 <a name="-project-overview"></a>
 ## 🇺🇸 Project Overview
 
-This repository contains the implementation and experimental results for my Master's Thesis on **Semantic Segmentation for Autonomous Driving (ADAS)**.
+This repository contains the implementation and experimental results for my project on **2D Semantic Segmentation for Autonomous Driving (ADAS)**.
 
 The project performs a comparative analysis between two major architectures, **U-Net** and **DeepLabV3+**, applied to the [Cityscapes Dataset](https://www.cityscapes-dataset.com/). The core contribution is the implementation of a **Coarse-to-Fine Transfer Learning strategy** to maximize segmentation accuracy on urban scenes using High-Performance Computing (HPC) resources.
 
