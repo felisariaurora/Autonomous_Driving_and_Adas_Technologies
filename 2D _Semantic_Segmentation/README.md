@@ -5,8 +5,7 @@
 ![Platform](https://img.shields.io/badge/Platform-HPC%20%7C%20Slurm-green)
 ![Dataset](https://img.shields.io/badge/Dataset-Cityscapes-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-![Status](https://img.shields.io/badge/Status-Thesis%20Completed-brightgreen)
-
+![Status](https://img.shields.io/badge/Status-Work%20In%20Progress-yellow)
 <p align="center">
   <a href="#-project-overview">🇺🇸 <b>English Version</b></a> |
   <a href="#-descrizione-del-progetto">🇮🇹 <b>Versione Italiana</b></a>
