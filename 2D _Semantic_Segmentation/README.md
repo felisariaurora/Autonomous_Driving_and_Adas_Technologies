@@ -46,12 +46,13 @@ Qualitative comparison showing the improvements from Coarse pre-training to Fine
 ### 🚀 Usage
 
 **1. Inference (Generate Comparisons)**
-To run the comparison script on your local machine using the trained `.pth` checkpoints:
+: To run the comparison script on your local machine using the trained `.pth` checkpoints:
 ```bash
-python3 predict_all.py
-This will generate the visualization grid in the results_comparison/ folder.
+python3 predict_all.py+
 ```
-2. Training (HPC / Slurm)
+This will generate the visualization grid in the results_comparison/ folder.
+
+**2. Training (HPC / Slurm)**
 
 ```bash
 
@@ -62,12 +63,12 @@ sbatch run_unet_coarse.sh
 sbatch run_unet_fine.sh
 sbatch run_deeplab_fine.sh
 ```
+
 <a name="-descrizione-del-progetto"></a>
+## 🇮🇹 Descrizione del Progetto
+Questa repository contiene l'implementazione e i risultati sperimentali della mio progetto sulla Segmentazione Semantica 2D per la Guida Autonoma (ADAS).
 
-🇮🇹 Descrizione del Progetto
-Questa repository contiene l'implementazione e i risultati sperimentali della mia Tesi Magistrale sulla Segmentazione Semantica per la Guida Autonoma (ADAS).
-
-Il progetto si concentra sul confronto tra due architetture principali, U-Net e DeepLabV3+, applicate al dataset Cityscapes. Il contributo principale è l'implementazione di una strategia di Transfer Learning "Coarse-to-Fine" per massimizzare la precisione della segmentazione in scenari urbani, sfruttando risorse di calcolo HPC.
+Il progetto si concentra sul confronto tra due architetture principali, U-Net e DeepLabV3+, applicate al dataset [Cityscapes Dataset](https://www.cityscapes-dataset.com/). Il contributo principale è l'implementazione di una strategia di Transfer Learning "Coarse-to-Fine" per massimizzare la precisione della segmentazione in scenari urbani, sfruttando risorse di calcolo HPC.
 
 🎯 Obiettivi
 Confronto Architetturale: Analisi dei compromessi tra un Encoder-Decoder simmetrico (U-Net) e un approccio basato su contesto multi-scala (DeepLabV3+).
@@ -87,7 +88,7 @@ La tabella seguente mostra l'evoluzione qualitativa del modello. Si nota come il
 (Vedi tabella nella sezione inglese sopra)
 
 🚀 Utilizzo
-1. Inferenza (Generazione Confronti) Per lanciare lo script di visualizzazione in locale usando i pesi .pth scaricati:
+**1. Inferenza (Generazione Confronti)**: Per lanciare lo script di visualizzazione in locale usando i pesi .pth scaricati:
 
 ```bash
 
@@ -95,7 +96,8 @@ python3 predict_all.py
 ```
 I risultati verranno salvati automaticamente nella cartella results_comparison/.
 
-2. Training (HPC / Slurm) Il training è stato eseguito su cluster HPC. Ecco i comandi principali:
+**2. Training (HPC / Slurm)**
+: Il training è stato eseguito su cluster HPC. Ecco i comandi principali:
 
 ```bash
 
@@ -125,16 +127,3 @@ University: Università di Parma
 
 
 ***
-
-### 🛠️ Cosa devi fare prima di fare il Commit:
-
-1.  **Crea le cartelle**: Assicurati che su GitHub carichi la cartella `results_comparison`.
-2.  **Rinomina le immagini**: Nel codice del README ho ipotizzato che le immagini si chiamino:
-    * `input_sample.png`
-    * `result_unet_coarse.png`
-    * `result_unet_fine.png`
-    * `result_deeplab_fine.png`
-    
-    Prendi le migliori immagini che `predict_all.py` ti ha generato poco fa, rinominale così e mettile nella cartella `results_comparison`. In questo modo la tabella nel README si "accenderà" con i tuoi risultati reali!
-
-È pronto per essere pubblicato! 🚀
