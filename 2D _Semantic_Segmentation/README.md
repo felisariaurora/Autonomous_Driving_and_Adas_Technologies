@@ -20,7 +20,7 @@
 <a name="-project-overview"></a>
 ## 🇺🇸 Project Overview
 
-This repository contains the implementation and experimental results for the **2D Semantic Segmentation** project, developed for the *Advanced Driver Assistance Systems* course at the University of Parma.
+This repository contains the implementation and experimental results for the **2D Semantic Segmentation** project.
 
 The project performs a systematic comparison between two major deep learning architectures — **U-Net** (implemented from scratch) and **DeepLabV3+** (with multiple training strategies) — applied to the [Cityscapes Dataset](https://www.cityscapes-dataset.com/) for pixel-level urban scene understanding.
 
@@ -235,8 +235,7 @@ Università di Parma — Advanced Driver Assistance Systems
 <a name="-descrizione-del-progetto"></a>
 ## 🇮🇹 Descrizione del Progetto
 
-Questa repository contiene l'implementazione e i risultati sperimentali del progetto di **Segmentazione Semantica 2D**, sviluppato per il corso di *Advanced Driver Assistance Systems* presso l'Università di Parma.
-
+Questa repository contiene l'implementazione e i risultati sperimentali del progetto di **Segmentazione Semantica 2D**.
 Il progetto confronta sistematicamente due architetture di deep learning — **U-Net** (implementata da zero) e **DeepLabV3+** (con diverse strategie di training) — applicate al [dataset Cityscapes](https://www.cityscapes-dataset.com/) per la classificazione a livello di pixel di scene urbane.
 
 ---
@@ -388,4 +387,4 @@ pip install -r requirements.txt
 ### 👤 Autore
 
 **Aurora Felisari**
-Università di Parma — Advanced Driver Assistance Systems
+Università di Parma 
