@@ -165,7 +165,7 @@ rsync -avz --progress \
 # Connect and submit
 ssh aurora.felisari@login.hpc.unipr.it
 cd ~/project/scripts_training_final
-sed -i 's/\r//' *.sh   # Fix line endings if needed
+sed -i 's/\r//' *.sh
 bash submit_all.sh
 ```
 
@@ -199,7 +199,7 @@ cd <repo-name>
 # Install dependencies
 pip install -r requirements.txt
 
-# Download Cityscapes dataset (requires registration at cityscapes-dataset.com)
+# Download Cityscapes dataset
 # Place it under: data/cityscapes/leftImg8bit/ and data/cityscapes/gtFine/
 ```
 
@@ -218,7 +218,7 @@ pip install -r requirements.txt
 ### Author
 
 **Aurora Felisari**
-Università di Parma — Advanced Driver Assistance Systems
+Università di Parma — MS in Computer Science
 
 ---
 
@@ -319,7 +319,7 @@ rsync -avz --progress \
 # Connettiti e lancia
 ssh aurora.felisari@login.hpc.unipr.it
 cd ~/project/scripts_training_final
-sed -i 's/\r//' *.sh   # Fix line endings se necessario
+sed -i 's/\r//' *.sh   
 bash submit_all.sh
 ```
 
@@ -353,7 +353,7 @@ cd <repo-name>
 # Installa le dipendenze
 pip install -r requirements.txt
 
-# Scarica il dataset Cityscapes (richiede registrazione su cityscapes-dataset.com)
+# Scarica il dataset Cityscapes
 # Posizionalo in: data/cityscapes/leftImg8bit/ e data/cityscapes/gtFine/
 ```
 
@@ -372,4 +372,4 @@ pip install -r requirements.txt
 ### Autore
 
 **Aurora Felisari**
-Università di Parma — Advanced Driver Assistance Systems
+Università di Parma — Studentessa Magistrale in Scienze Informatiche
