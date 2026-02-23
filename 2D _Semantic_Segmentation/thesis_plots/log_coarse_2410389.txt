@@ -1,0 +1,7 @@
+Lancio addestramento su: wn41
+/hpc/home/aurora.felisari/project/venv_hpc/bin/python3
+[CONFIG] Dispositivo rilevato: cuda
+--- CONFIGURAZIONE U-NET COARSE ---
+[DEVICE] cuda
+[BATCH SIZE EFFETTIVO] 16
+-----------------------------------

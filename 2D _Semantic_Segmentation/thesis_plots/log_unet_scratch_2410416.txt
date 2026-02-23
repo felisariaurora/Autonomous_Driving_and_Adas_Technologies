@@ -1,0 +1,193 @@
+[CONFIG] Dispositivo rilevato: cuda
+[INFO] U-Net da Scratch — cuda
+[INFO] Batch effettivo: 16 (2 x 8 accumulation)
+[INFO] Train: 2975 immagini | Val: 500 immagini
+
+[EPOCH 1/50]
+[INFO] Train Loss: 1.5125 | Val mIoU: 0.1895 (18.95%) | LR: 1.00e-04
+[BEST] mIoU=0.1895 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 2/50]
+[INFO] Train Loss: 0.9305 | Val mIoU: 0.2113 (21.13%) | LR: 1.00e-04
+[BEST] mIoU=0.2113 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 3/50]
+[INFO] Train Loss: 0.7290 | Val mIoU: 0.2112 (21.12%) | LR: 1.00e-04
+
+[EPOCH 4/50]
+[INFO] Train Loss: 0.6195 | Val mIoU: 0.2466 (24.66%) | LR: 1.00e-04
+[BEST] mIoU=0.2466 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 5/50]
+[INFO] Train Loss: 0.5556 | Val mIoU: 0.2565 (25.65%) | LR: 1.00e-04
+[BEST] mIoU=0.2565 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 6/50]
+[INFO] Train Loss: 0.5024 | Val mIoU: 0.2811 (28.11%) | LR: 1.00e-04
+[BEST] mIoU=0.2811 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 7/50]
+[INFO] Train Loss: 0.4589 | Val mIoU: 0.2898 (28.98%) | LR: 1.00e-04
+[BEST] mIoU=0.2898 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 8/50]
+[INFO] Train Loss: 0.4291 | Val mIoU: 0.2980 (29.80%) | LR: 1.00e-04
+[BEST] mIoU=0.2980 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 9/50]
+[INFO] Train Loss: 0.4041 | Val mIoU: 0.3217 (32.17%) | LR: 1.00e-04
+[BEST] mIoU=0.3217 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 10/50]
+[INFO] Train Loss: 0.3842 | Val mIoU: 0.3511 (35.11%) | LR: 1.00e-04
+[BEST] mIoU=0.3511 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 11/50]
+[INFO] Train Loss: 0.3621 | Val mIoU: 0.3578 (35.78%) | LR: 1.00e-04
+[BEST] mIoU=0.3578 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 12/50]
+[INFO] Train Loss: 0.3496 | Val mIoU: 0.3691 (36.91%) | LR: 1.00e-04
+[BEST] mIoU=0.3691 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 13/50]
+[INFO] Train Loss: 0.3301 | Val mIoU: 0.3801 (38.01%) | LR: 1.00e-04
+[BEST] mIoU=0.3801 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 14/50]
+[INFO] Train Loss: 0.3197 | Val mIoU: 0.3974 (39.74%) | LR: 1.00e-04
+[BEST] mIoU=0.3974 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 15/50]
+[INFO] Train Loss: 0.3090 | Val mIoU: 0.4116 (41.16%) | LR: 1.00e-04
+[BEST] mIoU=0.4116 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 16/50]
+[INFO] Train Loss: 0.3039 | Val mIoU: 0.4004 (40.04%) | LR: 1.00e-04
+
+[EPOCH 17/50]
+[INFO] Train Loss: 0.2960 | Val mIoU: 0.4184 (41.84%) | LR: 1.00e-04
+[BEST] mIoU=0.4184 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 18/50]
+[INFO] Train Loss: 0.2857 | Val mIoU: 0.4228 (42.28%) | LR: 1.00e-04
+[BEST] mIoU=0.4228 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 19/50]
+[INFO] Train Loss: 0.2738 | Val mIoU: 0.4153 (41.53%) | LR: 1.00e-04
+
+[EPOCH 20/50]
+[INFO] Train Loss: 0.2674 | Val mIoU: 0.4192 (41.92%) | LR: 1.00e-04
+
+[EPOCH 21/50]
+[INFO] Train Loss: 0.2641 | Val mIoU: 0.4480 (44.80%) | LR: 1.00e-04
+[BEST] mIoU=0.4480 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 22/50]
+[INFO] Train Loss: 0.2562 | Val mIoU: 0.4583 (45.83%) | LR: 1.00e-04
+[BEST] mIoU=0.4583 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 23/50]
+[INFO] Train Loss: 0.2518 | Val mIoU: 0.4633 (46.33%) | LR: 1.00e-04
+[BEST] mIoU=0.4633 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 24/50]
+[INFO] Train Loss: 0.2425 | Val mIoU: 0.4738 (47.38%) | LR: 1.00e-04
+[BEST] mIoU=0.4738 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 25/50]
+[INFO] Train Loss: 0.2429 | Val mIoU: 0.4809 (48.09%) | LR: 1.00e-04
+[BEST] mIoU=0.4809 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 26/50]
+[INFO] Train Loss: 0.2375 | Val mIoU: 0.4704 (47.04%) | LR: 1.00e-04
+
+[EPOCH 27/50]
+[INFO] Train Loss: 0.2338 | Val mIoU: 0.4981 (49.81%) | LR: 1.00e-04
+[BEST] mIoU=0.4981 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 28/50]
+[INFO] Train Loss: 0.2259 | Val mIoU: 0.5000 (50.00%) | LR: 1.00e-04
+[BEST] mIoU=0.5000 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 29/50]
+[INFO] Train Loss: 0.2249 | Val mIoU: 0.5050 (50.50%) | LR: 1.00e-04
+[BEST] mIoU=0.5050 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 30/50]
+[INFO] Train Loss: 0.2226 | Val mIoU: 0.4943 (49.43%) | LR: 1.00e-04
+
+[EPOCH 31/50]
+[INFO] Train Loss: 0.2127 | Val mIoU: 0.5082 (50.82%) | LR: 1.00e-04
+[BEST] mIoU=0.5082 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 32/50]
+[INFO] Train Loss: 0.2129 | Val mIoU: 0.5126 (51.26%) | LR: 1.00e-04
+[BEST] mIoU=0.5126 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 33/50]
+[INFO] Train Loss: 0.2074 | Val mIoU: 0.5181 (51.81%) | LR: 1.00e-04
+[BEST] mIoU=0.5181 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 34/50]
+[INFO] Train Loss: 0.2005 | Val mIoU: 0.5190 (51.90%) | LR: 1.00e-04
+[BEST] mIoU=0.5190 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 35/50]
+[INFO] Train Loss: 0.2006 | Val mIoU: 0.5237 (52.37%) | LR: 1.00e-04
+[BEST] mIoU=0.5237 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 36/50]
+[INFO] Train Loss: 0.2000 | Val mIoU: 0.4843 (48.43%) | LR: 1.00e-04
+
+[EPOCH 37/50]
+[INFO] Train Loss: 0.2012 | Val mIoU: 0.5290 (52.90%) | LR: 1.00e-04
+[BEST] mIoU=0.5290 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 38/50]
+[INFO] Train Loss: 0.1910 | Val mIoU: 0.5226 (52.26%) | LR: 1.00e-04
+
+[EPOCH 39/50]
+[INFO] Train Loss: 0.1898 | Val mIoU: 0.5183 (51.83%) | LR: 1.00e-04
+
+[EPOCH 40/50]
+[INFO] Train Loss: 0.1901 | Val mIoU: 0.5391 (53.91%) | LR: 1.00e-04
+[BEST] mIoU=0.5391 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 41/50]
+[INFO] Train Loss: 0.1836 | Val mIoU: 0.5394 (53.94%) | LR: 1.00e-04
+[BEST] mIoU=0.5394 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 42/50]
+[INFO] Train Loss: 0.1862 | Val mIoU: 0.5453 (54.53%) | LR: 1.00e-04
+[BEST] mIoU=0.5453 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 43/50]
+[INFO] Train Loss: 0.1829 | Val mIoU: 0.5426 (54.26%) | LR: 1.00e-04
+
+[EPOCH 44/50]
+[INFO] Train Loss: 0.1765 | Val mIoU: 0.5504 (55.04%) | LR: 1.00e-04
+[BEST] mIoU=0.5504 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 45/50]
+[INFO] Train Loss: 0.1730 | Val mIoU: 0.5616 (56.16%) | LR: 1.00e-04
+[BEST] mIoU=0.5616 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 46/50]
+[INFO] Train Loss: 0.1698 | Val mIoU: 0.5413 (54.13%) | LR: 1.00e-04
+
+[EPOCH 47/50]
+[INFO] Train Loss: 0.1678 | Val mIoU: 0.5546 (55.46%) | LR: 1.00e-04
+
+[EPOCH 48/50]
+[INFO] Train Loss: 0.1627 | Val mIoU: 0.5618 (56.18%) | LR: 1.00e-04
+[BEST] mIoU=0.5618 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 49/50]
+[INFO] Train Loss: 0.1634 | Val mIoU: 0.5651 (56.51%) | LR: 1.00e-04
+[BEST] mIoU=0.5651 -> /hpc/home/aurora.felisari/project/checkpoints/unet_scratch_best.pth
+
+[EPOCH 50/50]
+[INFO] Train Loss: 0.1680 | Val mIoU: 0.5540 (55.40%) | LR: 1.00e-04
+
+[DONE] Training completato. Best Val mIoU: 0.5651

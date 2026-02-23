@@ -1,0 +1,153 @@
+[INFO] Active Device: cuda
+[INFO] Avvio U-Net Scratch BASE (No Weights, No Pretrain)
+
+[EPOCH 1/50]
+[INFO] Avg Loss: 1.2685 | LR: 0.0001
+
+[EPOCH 2/50]
+[INFO] Avg Loss: 0.7126 | LR: 0.0001
+
+[EPOCH 3/50]
+[INFO] Avg Loss: 0.5568 | LR: 0.0001
+
+[EPOCH 4/50]
+[INFO] Avg Loss: 0.4730 | LR: 0.0001
+
+[EPOCH 5/50]
+[INFO] Avg Loss: 0.4206 | LR: 0.0001
+
+[EPOCH 6/50]
+[INFO] Avg Loss: 0.3795 | LR: 0.0001
+
+[EPOCH 7/50]
+[INFO] Avg Loss: 0.3456 | LR: 0.0001
+
+[EPOCH 8/50]
+[INFO] Avg Loss: 0.3251 | LR: 0.0001
+
+[EPOCH 9/50]
+[INFO] Avg Loss: 0.3026 | LR: 0.0001
+
+[EPOCH 10/50]
+[INFO] Avg Loss: 0.2848 | LR: 0.0001
+
+[EPOCH 11/50]
+[INFO] Avg Loss: 0.2674 | LR: 0.0001
+
+[EPOCH 12/50]
+[INFO] Avg Loss: 0.2485 | LR: 0.0001
+
+[EPOCH 13/50]
+[INFO] Avg Loss: 0.2390 | LR: 0.0001
+
+[EPOCH 14/50]
+[INFO] Avg Loss: 0.2282 | LR: 0.0001
+
+[EPOCH 15/50]
+[INFO] Avg Loss: 0.2154 | LR: 0.0001
+
+[EPOCH 16/50]
+[INFO] Avg Loss: 0.2060 | LR: 0.0001
+
+[EPOCH 17/50]
+[INFO] Avg Loss: 0.1931 | LR: 0.0001
+
+[EPOCH 18/50]
+[INFO] Avg Loss: 0.1872 | LR: 0.0001
+
+[EPOCH 19/50]
+[INFO] Avg Loss: 0.1817 | LR: 0.0001
+
+[EPOCH 20/50]
+[INFO] Avg Loss: 0.1662 | LR: 0.0001
+
+[EPOCH 21/50]
+[INFO] Avg Loss: 0.1663 | LR: 0.0001
+
+[EPOCH 22/50]
+[INFO] Avg Loss: 0.1551 | LR: 0.0001
+
+[EPOCH 23/50]
+[INFO] Avg Loss: 0.1462 | LR: 0.0001
+
+[EPOCH 24/50]
+[INFO] Avg Loss: 0.1405 | LR: 0.0001
+
+[EPOCH 25/50]
+[INFO] Avg Loss: 0.1360 | LR: 0.0001
+
+[EPOCH 26/50]
+[INFO] Avg Loss: 0.1406 | LR: 0.0001
+
+[EPOCH 27/50]
+[INFO] Avg Loss: 0.1209 | LR: 0.0001
+
+[EPOCH 28/50]
+[INFO] Avg Loss: 0.1326 | LR: 0.0001
+
+[EPOCH 29/50]
+[INFO] Avg Loss: 0.1205 | LR: 0.0001
+
+[EPOCH 30/50]
+[INFO] Avg Loss: 0.1094 | LR: 0.0001
+
+[EPOCH 31/50]
+[INFO] Avg Loss: 0.0990 | LR: 0.0001
+
+[EPOCH 32/50]
+[INFO] Avg Loss: 0.1173 | LR: 0.0001
+
+[EPOCH 33/50]
+[INFO] Avg Loss: 0.1117 | LR: 0.0001
+
+[EPOCH 34/50]
+[INFO] Avg Loss: 0.0955 | LR: 0.0001
+
+[EPOCH 35/50]
+[INFO] Avg Loss: 0.0880 | LR: 0.0001
+
+[EPOCH 36/50]
+[INFO] Avg Loss: 0.0841 | LR: 0.0001
+
+[EPOCH 37/50]
+[INFO] Avg Loss: 0.1157 | LR: 0.0001
+
+[EPOCH 38/50]
+[INFO] Avg Loss: 0.0953 | LR: 0.0001
+
+[EPOCH 39/50]
+[INFO] Avg Loss: 0.0784 | LR: 0.0001
+
+[EPOCH 40/50]
+[INFO] Avg Loss: 0.0861 | LR: 0.0001
+
+[EPOCH 41/50]
+[INFO] Avg Loss: 0.0806 | LR: 0.0001
+
+[EPOCH 42/50]
+[INFO] Avg Loss: 0.0655 | LR: 0.0001
+
+[EPOCH 43/50]
+[INFO] Avg Loss: 0.0617 | LR: 0.0001
+
+[EPOCH 44/50]
+[INFO] Avg Loss: 0.0613 | LR: 0.0001
+
+[EPOCH 45/50]
+[INFO] Avg Loss: 0.1103 | LR: 0.0001
+
+[EPOCH 46/50]
+[INFO] Avg Loss: 0.0957 | LR: 0.0001
+
+[EPOCH 47/50]
+[INFO] Avg Loss: 0.0635 | LR: 0.0001
+
+[EPOCH 48/50]
+[INFO] Avg Loss: 0.0552 | LR: 0.0001
+
+[EPOCH 49/50]
+[INFO] Avg Loss: 0.0525 | LR: 0.0001
+
+[EPOCH 50/50]
+[INFO] Avg Loss: 0.0512 | LR: 0.0001
+[DONE] Training Terminato.

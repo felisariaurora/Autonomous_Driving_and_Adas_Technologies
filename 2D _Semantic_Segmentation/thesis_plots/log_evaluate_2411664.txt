@@ -1,0 +1,225 @@
+================================================
+Benchmark completo — lun 23 feb 2026, 10.34.25, CET
+Host: wn41
+================================================
+[CONFIG] Dispositivo rilevato: cuda
+[INFO] Benchmark Completo — Fast Mode: False
+[INFO] Device: cuda
+[INFO] Checkpoint dir: /hpc/home/aurora.felisari/project/checkpoints
+
+=======================================================
+Valutazione: U-Net Scratch
+  Pesi caricati da: unet_scratch_best.pth
+  Analisi su 500 immagini...
+  Progress: 1/500  Progress: 51/500  Progress: 101/500  Progress: 151/500  Progress: 201/500  Progress: 251/500  Progress: 301/500  Progress: 351/500  Progress: 401/500  Progress: 451/500
+  mIoU:           0.5744  (57.44%)
+  Pixel Accuracy: 0.9305  (93.05%)
+
+  IoU per classe:
+    road              96.3%  ███████████████████
+    sidewalk          73.5%  ██████████████
+    building          88.0%  █████████████████
+    wall              28.5%  █████
+    fence             39.6%  ███████
+    pole              53.2%  ██████████
+    traffic light     51.0%  ██████████
+    traffic sign      64.6%  ████████████
+    vegetation        90.0%  █████████████████
+    terrain           48.3%  █████████
+    sky               92.5%  ██████████████████
+    person            66.4%  █████████████
+    rider             34.5%  ██████
+    car               89.3%  █████████████████
+    truck             23.9%  ████
+    bus               40.4%  ████████
+    train             26.5%  █████
+    motorcycle        21.8%  ████
+    bicycle           63.3%  ████████████
+
+=======================================================
+Valutazione: U-Net Coarse
+  Pesi caricati da: unet_coarse_best.pth
+  Analisi su 500 immagini...
+  Progress: 1/500  Progress: 51/500  Progress: 101/500  Progress: 151/500  Progress: 201/500  Progress: 251/500  Progress: 301/500  Progress: 351/500  Progress: 401/500  Progress: 451/500
+  mIoU:           0.5185  (51.85%)
+  Pixel Accuracy: 0.9010  (90.10%)
+
+  IoU per classe:
+    road              94.5%  ██████████████████
+    sidewalk          65.1%  █████████████
+    building          83.1%  ████████████████
+    wall              32.8%  ██████
+    fence             28.6%  █████
+    pole              40.5%  ████████
+    traffic light     36.7%  ███████
+    traffic sign      52.0%  ██████████
+    vegetation        85.0%  █████████████████
+    terrain           43.1%  ████████
+    sky               91.3%  ██████████████████
+    person            56.3%  ███████████
+    rider             32.4%  ██████
+    car               83.1%  ████████████████
+    truck             23.2%  ████
+    bus               38.7%  ███████
+    train             22.9%  ████
+    motorcycle        20.2%  ████
+    bicycle           55.8%  ███████████
+
+=======================================================
+Valutazione: U-Net Coarse→Fine
+  Pesi caricati da: unet_fine_best.pth
+  Analisi su 500 immagini...
+  Progress: 1/500  Progress: 51/500  Progress: 101/500  Progress: 151/500  Progress: 201/500  Progress: 251/500  Progress: 301/500  Progress: 351/500  Progress: 401/500  Progress: 451/500
+  mIoU:           0.5770  (57.70%)
+  Pixel Accuracy: 0.9306  (93.06%)
+
+  IoU per classe:
+    road              96.3%  ███████████████████
+    sidewalk          73.8%  ██████████████
+    building          87.5%  █████████████████
+    wall              34.4%  ██████
+    fence             39.1%  ███████
+    pole              49.7%  █████████
+    traffic light     46.4%  █████████
+    traffic sign      63.4%  ████████████
+    vegetation        89.2%  █████████████████
+    terrain           52.2%  ██████████
+    sky               93.1%  ██████████████████
+    person            65.9%  █████████████
+    rider             35.4%  ███████
+    car               88.7%  █████████████████
+    truck             27.4%  █████
+    bus               41.8%  ████████
+    train             24.3%  ████
+    motorcycle        23.9%  ████
+    bicycle           63.7%  ████████████
+
+=======================================================
+Valutazione: DeepLab Scratch
+  Pesi caricati da: deeplab_scratch_best.pth
+  Analisi su 500 immagini...
+  Progress: 1/500  Progress: 51/500  Progress: 101/500  Progress: 151/500  Progress: 201/500  Progress: 251/500  Progress: 301/500  Progress: 351/500  Progress: 401/500  Progress: 451/500
+  mIoU:           0.7420  (74.20%)
+  Pixel Accuracy: 0.9533  (95.33%)
+
+  IoU per classe:
+    road              97.9%  ███████████████████
+    sidewalk          82.8%  ████████████████
+    building          91.2%  ██████████████████
+    wall              56.3%  ███████████
+    fence             56.2%  ███████████
+    pole              52.5%  ██████████
+    traffic light     60.1%  ████████████
+    traffic sign      72.3%  ██████████████
+    vegetation        91.2%  ██████████████████
+    terrain           62.1%  ████████████
+    sky               93.8%  ██████████████████
+    person            76.0%  ███████████████
+    rider             54.8%  ██████████
+    car               93.8%  ██████████████████
+    truck             81.1%  ████████████████
+    bus               86.6%  █████████████████
+    train             72.2%  ██████████████
+    motorcycle        57.9%  ███████████
+    bicycle           70.9%  ██████████████
+
+=======================================================
+Valutazione: DeepLab Coarse
+  Pesi caricati da: deeplab_coarse_best.pth
+  Analisi su 500 immagini...
+  Progress: 1/500  Progress: 51/500  Progress: 101/500  Progress: 151/500  Progress: 201/500  Progress: 251/500  Progress: 301/500  Progress: 351/500  Progress: 401/500  Progress: 451/500
+  mIoU:           0.6326  (63.26%)
+  Pixel Accuracy: 0.9211  (92.11%)
+
+  IoU per classe:
+    road              95.7%  ███████████████████
+    sidewalk          71.5%  ██████████████
+    building          86.1%  █████████████████
+    wall              51.6%  ██████████
+    fence             48.8%  █████████
+    pole              40.2%  ████████
+    traffic light     47.8%  █████████
+    traffic sign      58.4%  ███████████
+    vegetation        86.0%  █████████████████
+    terrain           46.8%  █████████
+    sky               90.0%  ██████████████████
+    person            62.6%  ████████████
+    rider             46.9%  █████████
+    car               87.4%  █████████████████
+    truck             64.9%  ████████████
+    bus               67.8%  █████████████
+    train             42.8%  ████████
+    motorcycle        46.0%  █████████
+    bicycle           60.3%  ████████████
+
+=======================================================
+Valutazione: DeepLab Coarse→Fine
+  Pesi caricati da: deeplab_fine_best.pth
+  Analisi su 500 immagini...
+  Progress: 1/500  Progress: 51/500  Progress: 101/500  Progress: 151/500  Progress: 201/500  Progress: 251/500  Progress: 301/500  Progress: 351/500  Progress: 401/500  Progress: 451/500
+  mIoU:           0.7034  (70.34%)
+  Pixel Accuracy: 0.9483  (94.83%)
+
+  IoU per classe:
+    road              97.5%  ███████████████████
+    sidewalk          81.3%  ████████████████
+    building          90.5%  ██████████████████
+    wall              50.1%  ██████████
+    fence             52.7%  ██████████
+    pole              50.8%  ██████████
+    traffic light     57.0%  ███████████
+    traffic sign      68.6%  █████████████
+    vegetation        90.4%  ██████████████████
+    terrain           62.2%  ████████████
+    sky               93.3%  ██████████████████
+    person            74.2%  ██████████████
+    rider             54.7%  ██████████
+    car               92.9%  ██████████████████
+    truck             75.5%  ███████████████
+    bus               75.6%  ███████████████
+    train             42.7%  ████████
+    motorcycle        57.0%  ███████████
+    bicycle           69.2%  █████████████
+
+=======================================================
+Valutazione: DeepLab Pretrained
+  Pesi caricati da: deeplab_pretrained_best.pth
+  Analisi su 500 immagini...
+  Progress: 1/500  Progress: 51/500  Progress: 101/500  Progress: 151/500  Progress: 201/500  Progress: 251/500  Progress: 301/500  Progress: 351/500  Progress: 401/500  Progress: 451/500
+  mIoU:           0.7300  (73.00%)
+  Pixel Accuracy: 0.9502  (95.02%)
+
+  IoU per classe:
+    road              97.6%  ███████████████████
+    sidewalk          81.0%  ████████████████
+    building          90.9%  ██████████████████
+    wall              56.2%  ███████████
+    fence             53.0%  ██████████
+    pole              51.6%  ██████████
+    traffic light     58.5%  ███████████
+    traffic sign      69.6%  █████████████
+    vegetation        90.8%  ██████████████████
+    terrain           59.7%  ███████████
+    sky               93.5%  ██████████████████
+    person            75.6%  ███████████████
+    rider             56.7%  ███████████
+    car               93.2%  ██████████████████
+    truck             76.5%  ███████████████
+    bus               82.9%  ████████████████
+    train             71.3%  ██████████████
+    motorcycle        58.3%  ███████████
+    bicycle           70.1%  ██████████████
+
+============================================================
+TABELLA RIASSUNTIVA FINALE
+============================================================
+MODELLO                  |     mIoU |  PIX ACC
+------------------------------------------------------------
+U-Net Scratch            |   57.44% |   93.05%
+U-Net Coarse             |   51.85% |   90.10%
+U-Net Coarse→Fine        |   57.70% |   93.06%
+DeepLab Scratch          |   74.20% |   95.33%
+DeepLab Coarse           |   63.26% |   92.11%
+DeepLab Coarse→Fine      |   70.34% |   94.83%
+DeepLab Pretrained       |   73.00% |   95.02%
+============================================================

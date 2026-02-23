@@ -1,0 +1,170 @@
+[CONFIG] Dispositivo rilevato: cuda
+[INFO] DeepLabV3+ Coarse — cuda
+[INFO] Train Coarse: 2975 immagini | Val: 500 immagini
+
+--- Epoca 1/50 ---
+[INFO] Train Loss: 0.3832 | Val mIoU: 0.4735 (47.35%) | LR: 1.00e-04
+[BEST] mIoU=0.4735 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 2/50 ---
+[INFO] Train Loss: 0.2350 | Val mIoU: 0.5135 (51.35%) | LR: 1.00e-04
+[BEST] mIoU=0.5135 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 3/50 ---
+[INFO] Train Loss: 0.2061 | Val mIoU: 0.5009 (50.09%) | LR: 1.00e-04
+
+--- Epoca 4/50 ---
+[INFO] Train Loss: 0.1862 | Val mIoU: 0.5491 (54.91%) | LR: 1.00e-04
+[BEST] mIoU=0.5491 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 5/50 ---
+[INFO] Train Loss: 0.1642 | Val mIoU: 0.4577 (45.77%) | LR: 1.00e-04
+
+--- Epoca 6/50 ---
+[INFO] Train Loss: 0.1497 | Val mIoU: 0.5171 (51.71%) | LR: 1.00e-04
+
+--- Epoca 7/50 ---
+[INFO] Train Loss: 0.1525 | Val mIoU: 0.5186 (51.86%) | LR: 1.00e-04
+
+--- Epoca 8/50 ---
+[INFO] Train Loss: 0.1372 | Val mIoU: 0.5769 (57.69%) | LR: 1.00e-04
+[BEST] mIoU=0.5769 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 9/50 ---
+[INFO] Train Loss: 0.1294 | Val mIoU: 0.4896 (48.96%) | LR: 1.00e-04
+
+--- Epoca 10/50 ---
+[INFO] Train Loss: 0.1262 | Val mIoU: 0.5355 (53.55%) | LR: 1.00e-04
+
+--- Epoca 11/50 ---
+[INFO] Train Loss: 0.1191 | Val mIoU: 0.5295 (52.95%) | LR: 1.00e-04
+
+--- Epoca 12/50 ---
+[INFO] Train Loss: 0.1128 | Val mIoU: 0.5365 (53.65%) | LR: 1.00e-04
+
+--- Epoca 13/50 ---
+[INFO] Train Loss: 0.1026 | Val mIoU: 0.5149 (51.49%) | LR: 5.00e-05
+
+--- Epoca 14/50 ---
+[INFO] Train Loss: 0.0772 | Val mIoU: 0.5707 (57.07%) | LR: 5.00e-05
+
+--- Epoca 15/50 ---
+[INFO] Train Loss: 0.0705 | Val mIoU: 0.5856 (58.56%) | LR: 5.00e-05
+[BEST] mIoU=0.5856 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 16/50 ---
+[INFO] Train Loss: 0.0670 | Val mIoU: 0.5398 (53.98%) | LR: 5.00e-05
+
+--- Epoca 17/50 ---
+[INFO] Train Loss: 0.0644 | Val mIoU: 0.5715 (57.15%) | LR: 5.00e-05
+
+--- Epoca 18/50 ---
+[INFO] Train Loss: 0.0582 | Val mIoU: 0.5698 (56.98%) | LR: 5.00e-05
+
+--- Epoca 19/50 ---
+[INFO] Train Loss: 0.0566 | Val mIoU: 0.5589 (55.89%) | LR: 5.00e-05
+
+--- Epoca 20/50 ---
+[INFO] Train Loss: 0.0544 | Val mIoU: 0.5456 (54.56%) | LR: 2.50e-05
+
+--- Epoca 21/50 ---
+[INFO] Train Loss: 0.0423 | Val mIoU: 0.5816 (58.16%) | LR: 2.50e-05
+
+--- Epoca 22/50 ---
+[INFO] Train Loss: 0.0375 | Val mIoU: 0.5766 (57.66%) | LR: 2.50e-05
+
+--- Epoca 23/50 ---
+[INFO] Train Loss: 0.0367 | Val mIoU: 0.5766 (57.66%) | LR: 2.50e-05
+
+--- Epoca 24/50 ---
+[INFO] Train Loss: 0.0330 | Val mIoU: 0.5768 (57.68%) | LR: 2.50e-05
+
+--- Epoca 25/50 ---
+[INFO] Train Loss: 0.0340 | Val mIoU: 0.5819 (58.19%) | LR: 1.25e-05
+
+--- Epoca 26/50 ---
+[INFO] Train Loss: 0.0290 | Val mIoU: 0.5860 (58.60%) | LR: 1.25e-05
+[BEST] mIoU=0.5860 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 27/50 ---
+[INFO] Train Loss: 0.0264 | Val mIoU: 0.5885 (58.85%) | LR: 1.25e-05
+[BEST] mIoU=0.5885 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 28/50 ---
+[INFO] Train Loss: 0.0244 | Val mIoU: 0.5900 (59.00%) | LR: 1.25e-05
+[BEST] mIoU=0.5900 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 29/50 ---
+[INFO] Train Loss: 0.0228 | Val mIoU: 0.5893 (58.93%) | LR: 1.25e-05
+
+--- Epoca 30/50 ---
+[INFO] Train Loss: 0.0220 | Val mIoU: 0.5829 (58.29%) | LR: 1.25e-05
+
+--- Epoca 31/50 ---
+[INFO] Train Loss: 0.0222 | Val mIoU: 0.5847 (58.47%) | LR: 1.25e-05
+
+--- Epoca 32/50 ---
+[INFO] Train Loss: 0.0201 | Val mIoU: 0.5859 (58.59%) | LR: 1.25e-05
+
+--- Epoca 33/50 ---
+[INFO] Train Loss: 0.0194 | Val mIoU: 0.5917 (59.17%) | LR: 1.25e-05
+[BEST] mIoU=0.5917 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 34/50 ---
+[INFO] Train Loss: 0.0184 | Val mIoU: 0.5926 (59.26%) | LR: 1.25e-05
+[BEST] mIoU=0.5926 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 35/50 ---
+[INFO] Train Loss: 0.0178 | Val mIoU: 0.5949 (59.49%) | LR: 1.25e-05
+[BEST] mIoU=0.5949 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 36/50 ---
+[INFO] Train Loss: 0.0174 | Val mIoU: 0.5907 (59.07%) | LR: 1.25e-05
+
+--- Epoca 37/50 ---
+[INFO] Train Loss: 0.0157 | Val mIoU: 0.5918 (59.18%) | LR: 1.25e-05
+
+--- Epoca 38/50 ---
+[INFO] Train Loss: 0.0162 | Val mIoU: 0.5897 (58.97%) | LR: 1.25e-05
+
+--- Epoca 39/50 ---
+[INFO] Train Loss: 0.0154 | Val mIoU: 0.5895 (58.95%) | LR: 1.25e-05
+
+--- Epoca 40/50 ---
+[INFO] Train Loss: 0.0151 | Val mIoU: 0.5930 (59.30%) | LR: 6.25e-06
+
+--- Epoca 41/50 ---
+[INFO] Train Loss: 0.0138 | Val mIoU: 0.5923 (59.23%) | LR: 6.25e-06
+
+--- Epoca 42/50 ---
+[INFO] Train Loss: 0.0128 | Val mIoU: 0.6011 (60.11%) | LR: 6.25e-06
+[BEST] mIoU=0.6011 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 43/50 ---
+[INFO] Train Loss: 0.0127 | Val mIoU: 0.5976 (59.76%) | LR: 6.25e-06
+
+--- Epoca 44/50 ---
+[INFO] Train Loss: 0.0124 | Val mIoU: 0.6012 (60.12%) | LR: 6.25e-06
+[BEST] mIoU=0.6012 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 45/50 ---
+[INFO] Train Loss: 0.0122 | Val mIoU: 0.5994 (59.94%) | LR: 6.25e-06
+
+--- Epoca 46/50 ---
+[INFO] Train Loss: 0.0119 | Val mIoU: 0.6052 (60.52%) | LR: 6.25e-06
+[BEST] mIoU=0.6052 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 47/50 ---
+[INFO] Train Loss: 0.0119 | Val mIoU: 0.6100 (61.00%) | LR: 6.25e-06
+[BEST] mIoU=0.6100 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 48/50 ---
+[INFO] Train Loss: 0.0112 | Val mIoU: 0.6004 (60.04%) | LR: 6.25e-06
+
+--- Epoca 49/50 ---
+[INFO] Train Loss: 0.0112 | Val mIoU: 0.6043 (60.43%) | LR: 6.25e-06
+
+--- Epoca 50/50 ---
+[INFO] Train Loss: 0.0109 | Val mIoU: 0.6047 (60.47%) | LR: 6.25e-06
+
+[DONE] Training Coarse completato. Best Val mIoU: 0.6100

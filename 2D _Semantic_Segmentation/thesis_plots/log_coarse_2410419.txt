@@ -1,0 +1,188 @@
+Lancio addestramento su: wn41
+/hpc/home/aurora.felisari/project/venv_hpc/bin/python3
+[CONFIG] Dispositivo rilevato: cuda
+--- CONFIGURAZIONE U-NET COARSE ---
+[DEVICE] cuda
+[BATCH SIZE EFFETTIVO] 16
+-----------------------------------
+
+[START] Training Coarse — 50 epoche
+
+--- Epoca 1/50 ---
+[INFO] Train Loss: 1.6053 | Val mIoU: 0.1854 (18.54%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.1854 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 2/50 ---
+[INFO] Train Loss: 0.9792 | Val mIoU: 0.2256 (22.56%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.2256 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 3/50 ---
+[INFO] Train Loss: 0.7672 | Val mIoU: 0.2427 (24.27%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.2427 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 4/50 ---
+[INFO] Train Loss: 0.6561 | Val mIoU: 0.2603 (26.03%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.2603 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 5/50 ---
+[INFO] Train Loss: 0.5726 | Val mIoU: 0.2751 (27.51%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.2751 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 6/50 ---
+[INFO] Train Loss: 0.5155 | Val mIoU: 0.3008 (30.08%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.3008 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 7/50 ---
+[INFO] Train Loss: 0.4618 | Val mIoU: 0.3059 (30.59%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.3059 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 8/50 ---
+[INFO] Train Loss: 0.4317 | Val mIoU: 0.3326 (33.26%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.3326 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 9/50 ---
+[INFO] Train Loss: 0.4080 | Val mIoU: 0.3276 (32.76%) | LR: 1.00e-04
+
+--- Epoca 10/50 ---
+[INFO] Train Loss: 0.3811 | Val mIoU: 0.3433 (34.33%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.3433 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 11/50 ---
+[INFO] Train Loss: 0.3648 | Val mIoU: 0.3497 (34.97%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.3497 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 12/50 ---
+[INFO] Train Loss: 0.3476 | Val mIoU: 0.3463 (34.63%) | LR: 1.00e-04
+
+--- Epoca 13/50 ---
+[INFO] Train Loss: 0.3311 | Val mIoU: 0.3615 (36.15%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.3615 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 14/50 ---
+[INFO] Train Loss: 0.3171 | Val mIoU: 0.3700 (37.00%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.3700 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 15/50 ---
+[INFO] Train Loss: 0.3008 | Val mIoU: 0.3923 (39.23%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.3923 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 16/50 ---
+[INFO] Train Loss: 0.2964 | Val mIoU: 0.3934 (39.34%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.3934 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 17/50 ---
+[INFO] Train Loss: 0.2831 | Val mIoU: 0.3714 (37.14%) | LR: 1.00e-04
+
+--- Epoca 18/50 ---
+[INFO] Train Loss: 0.2814 | Val mIoU: 0.3963 (39.63%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.3963 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 19/50 ---
+[INFO] Train Loss: 0.2682 | Val mIoU: 0.4116 (41.16%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.4116 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 20/50 ---
+[INFO] Train Loss: 0.2593 | Val mIoU: 0.4137 (41.37%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.4137 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 21/50 ---
+[INFO] Train Loss: 0.2536 | Val mIoU: 0.4231 (42.31%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.4231 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 22/50 ---
+[INFO] Train Loss: 0.2447 | Val mIoU: 0.4212 (42.12%) | LR: 1.00e-04
+
+--- Epoca 23/50 ---
+[INFO] Train Loss: 0.2406 | Val mIoU: 0.4159 (41.59%) | LR: 1.00e-04
+
+--- Epoca 24/50 ---
+[INFO] Train Loss: 0.2355 | Val mIoU: 0.4394 (43.94%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.4394 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 25/50 ---
+[INFO] Train Loss: 0.2303 | Val mIoU: 0.4482 (44.82%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.4482 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 26/50 ---
+[INFO] Train Loss: 0.2213 | Val mIoU: 0.4305 (43.05%) | LR: 1.00e-04
+
+--- Epoca 27/50 ---
+[INFO] Train Loss: 0.2250 | Val mIoU: 0.4348 (43.48%) | LR: 1.00e-04
+
+--- Epoca 28/50 ---
+[INFO] Train Loss: 0.2162 | Val mIoU: 0.4456 (44.56%) | LR: 1.00e-04
+
+--- Epoca 29/50 ---
+[INFO] Train Loss: 0.2088 | Val mIoU: 0.4507 (45.07%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.4507 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 30/50 ---
+[INFO] Train Loss: 0.1997 | Val mIoU: 0.4392 (43.92%) | LR: 1.00e-04
+
+--- Epoca 31/50 ---
+[INFO] Train Loss: 0.1950 | Val mIoU: 0.4641 (46.41%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.4641 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 32/50 ---
+[INFO] Train Loss: 0.1985 | Val mIoU: 0.4511 (45.11%) | LR: 1.00e-04
+
+--- Epoca 33/50 ---
+[INFO] Train Loss: 0.1873 | Val mIoU: 0.4515 (45.15%) | LR: 1.00e-04
+
+--- Epoca 34/50 ---
+[INFO] Train Loss: 0.1846 | Val mIoU: 0.4745 (47.45%) | LR: 1.00e-04
+[BEST] Nuovo miglior modello! mIoU=0.4745 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 35/50 ---
+[INFO] Train Loss: 0.1858 | Val mIoU: 0.4392 (43.92%) | LR: 1.00e-04
+
+--- Epoca 36/50 ---
+[INFO] Train Loss: 0.1854 | Val mIoU: 0.4501 (45.01%) | LR: 1.00e-04
+
+--- Epoca 37/50 ---
+[INFO] Train Loss: 0.1757 | Val mIoU: 0.4395 (43.95%) | LR: 1.00e-04
+
+--- Epoca 38/50 ---
+[INFO] Train Loss: 0.1699 | Val mIoU: 0.4535 (45.35%) | LR: 1.00e-04
+
+--- Epoca 39/50 ---
+[INFO] Train Loss: 0.1670 | Val mIoU: 0.4674 (46.74%) | LR: 5.00e-05
+
+--- Epoca 40/50 ---
+[INFO] Train Loss: 0.1427 | Val mIoU: 0.4809 (48.09%) | LR: 5.00e-05
+[BEST] Nuovo miglior modello! mIoU=0.4809 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 41/50 ---
+[INFO] Train Loss: 0.1371 | Val mIoU: 0.4911 (49.11%) | LR: 5.00e-05
+[BEST] Nuovo miglior modello! mIoU=0.4911 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 42/50 ---
+[INFO] Train Loss: 0.1349 | Val mIoU: 0.4888 (48.88%) | LR: 5.00e-05
+
+--- Epoca 43/50 ---
+[INFO] Train Loss: 0.1310 | Val mIoU: 0.4701 (47.01%) | LR: 5.00e-05
+
+--- Epoca 44/50 ---
+[INFO] Train Loss: 0.1252 | Val mIoU: 0.4762 (47.62%) | LR: 5.00e-05
+
+--- Epoca 45/50 ---
+[INFO] Train Loss: 0.1285 | Val mIoU: 0.4807 (48.07%) | LR: 5.00e-05
+
+--- Epoca 46/50 ---
+[INFO] Train Loss: 0.1227 | Val mIoU: 0.4706 (47.06%) | LR: 2.50e-05
+
+--- Epoca 47/50 ---
+[INFO] Train Loss: 0.1093 | Val mIoU: 0.4961 (49.61%) | LR: 2.50e-05
+[BEST] Nuovo miglior modello! mIoU=0.4961 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 48/50 ---
+[INFO] Train Loss: 0.1066 | Val mIoU: 0.4821 (48.21%) | LR: 2.50e-05
+
+--- Epoca 49/50 ---
+[INFO] Train Loss: 0.1051 | Val mIoU: 0.4805 (48.05%) | LR: 2.50e-05
+
+--- Epoca 50/50 ---
+[INFO] Train Loss: 0.1010 | Val mIoU: 0.5013 (50.13%) | LR: 2.50e-05
+[BEST] Nuovo miglior modello! mIoU=0.5013 -> /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+[DONE] Training Coarse completato. Best Val mIoU: 0.5013

@@ -1,0 +1,2 @@
+[CONFIG] Dispositivo rilevato: cuda
+[INFO] DeepLabV3+ Coarse — cuda

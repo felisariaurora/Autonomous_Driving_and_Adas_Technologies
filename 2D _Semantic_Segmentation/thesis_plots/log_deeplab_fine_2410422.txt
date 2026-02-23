@@ -1,0 +1,109 @@
+[CONFIG] Dispositivo rilevato: cuda
+[INFO] DeepLabV3+ Fine-Tuning (Coarse -> Fine) — cuda
+[INFO] Train Fine: 2975 immagini | Val: 500 immagini
+[INFO] Caricamento pesi coarse da: /hpc/home/aurora.felisari/project/checkpoints/deeplab_coarse_best.pth
+
+--- Epoca 1/30 ---
+[INFO] Train Loss: 0.2279 | Val mIoU: 0.6343 (63.43%) | LR: 1.00e-05
+[BEST] mIoU=0.6343 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_fine_best.pth
+
+--- Epoca 2/30 ---
+[INFO] Train Loss: 0.1808 | Val mIoU: 0.6546 (65.46%) | LR: 1.00e-05
+[BEST] mIoU=0.6546 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_fine_best.pth
+
+--- Epoca 3/30 ---
+[INFO] Train Loss: 0.1691 | Val mIoU: 0.6665 (66.65%) | LR: 1.00e-05
+[BEST] mIoU=0.6665 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_fine_best.pth
+
+--- Epoca 4/30 ---
+[INFO] Train Loss: 0.1619 | Val mIoU: 0.6606 (66.06%) | LR: 1.00e-05
+
+--- Epoca 5/30 ---
+[INFO] Train Loss: 0.1556 | Val mIoU: 0.6429 (64.29%) | LR: 1.00e-05
+
+--- Epoca 6/30 ---
+[INFO] Train Loss: 0.1504 | Val mIoU: 0.6786 (67.86%) | LR: 1.00e-05
+[BEST] mIoU=0.6786 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_fine_best.pth
+
+--- Epoca 7/30 ---
+[INFO] Train Loss: 0.1468 | Val mIoU: 0.6751 (67.51%) | LR: 1.00e-05
+
+--- Epoca 8/30 ---
+[INFO] Train Loss: 0.1422 | Val mIoU: 0.6686 (66.86%) | LR: 1.00e-05
+
+--- Epoca 9/30 ---
+[INFO] Train Loss: 0.1400 | Val mIoU: 0.6878 (68.78%) | LR: 1.00e-05
+[BEST] mIoU=0.6878 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_fine_best.pth
+
+--- Epoca 10/30 ---
+[INFO] Train Loss: 0.1365 | Val mIoU: 0.6905 (69.05%) | LR: 1.00e-05
+[BEST] mIoU=0.6905 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_fine_best.pth
+
+--- Epoca 11/30 ---
+[INFO] Train Loss: 0.1339 | Val mIoU: 0.6960 (69.60%) | LR: 1.00e-05
+[BEST] mIoU=0.6960 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_fine_best.pth
+
+--- Epoca 12/30 ---
+[INFO] Train Loss: 0.1315 | Val mIoU: 0.6922 (69.22%) | LR: 1.00e-05
+
+--- Epoca 13/30 ---
+[INFO] Train Loss: 0.1291 | Val mIoU: 0.6959 (69.59%) | LR: 1.00e-05
+
+--- Epoca 14/30 ---
+[INFO] Train Loss: 0.1271 | Val mIoU: 0.6937 (69.37%) | LR: 1.00e-05
+
+--- Epoca 15/30 ---
+[INFO] Train Loss: 0.1244 | Val mIoU: 0.6983 (69.83%) | LR: 1.00e-05
+[BEST] mIoU=0.6983 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_fine_best.pth
+
+--- Epoca 16/30 ---
+[INFO] Train Loss: 0.1227 | Val mIoU: 0.7007 (70.07%) | LR: 1.00e-05
+[BEST] mIoU=0.7007 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_fine_best.pth
+
+--- Epoca 17/30 ---
+[INFO] Train Loss: 0.1207 | Val mIoU: 0.7020 (70.20%) | LR: 1.00e-05
+[BEST] mIoU=0.7020 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_fine_best.pth
+
+--- Epoca 18/30 ---
+[INFO] Train Loss: 0.1193 | Val mIoU: 0.6950 (69.50%) | LR: 1.00e-05
+
+--- Epoca 19/30 ---
+[INFO] Train Loss: 0.1176 | Val mIoU: 0.7020 (70.20%) | LR: 1.00e-05
+[BEST] mIoU=0.7020 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_fine_best.pth
+
+--- Epoca 20/30 ---
+[INFO] Train Loss: 0.1164 | Val mIoU: 0.6974 (69.74%) | LR: 1.00e-05
+
+--- Epoca 21/30 ---
+[INFO] Train Loss: 0.1153 | Val mIoU: 0.6996 (69.96%) | LR: 1.00e-05
+
+--- Epoca 22/30 ---
+[INFO] Train Loss: 0.1141 | Val mIoU: 0.7013 (70.13%) | LR: 5.00e-06
+
+--- Epoca 23/30 ---
+[INFO] Train Loss: 0.1113 | Val mIoU: 0.7004 (70.04%) | LR: 5.00e-06
+
+--- Epoca 24/30 ---
+[INFO] Train Loss: 0.1103 | Val mIoU: 0.6996 (69.96%) | LR: 5.00e-06
+
+--- Epoca 25/30 ---
+[INFO] Train Loss: 0.1098 | Val mIoU: 0.6955 (69.55%) | LR: 5.00e-06
+
+--- Epoca 26/30 ---
+[INFO] Train Loss: 0.1093 | Val mIoU: 0.6997 (69.97%) | LR: 5.00e-06
+
+--- Epoca 27/30 ---
+[INFO] Train Loss: 0.1087 | Val mIoU: 0.6984 (69.84%) | LR: 2.50e-06
+
+--- Epoca 28/30 ---
+[INFO] Train Loss: 0.1074 | Val mIoU: 0.7022 (70.22%) | LR: 2.50e-06
+[BEST] mIoU=0.7022 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_fine_best.pth
+
+--- Epoca 29/30 ---
+[INFO] Train Loss: 0.1068 | Val mIoU: 0.7009 (70.09%) | LR: 2.50e-06
+
+--- Epoca 30/30 ---
+[INFO] Train Loss: 0.1065 | Val mIoU: 0.7024 (70.24%) | LR: 2.50e-06
+[BEST] mIoU=0.7024 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_fine_best.pth
+
+[DONE] Fine-tuning completato. Best Val mIoU: 0.7024

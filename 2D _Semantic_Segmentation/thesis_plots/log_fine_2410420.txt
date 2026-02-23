@@ -1,0 +1,105 @@
+[CONFIG] Dispositivo rilevato: cuda
+[INFO] Import completati.
+[INFO] Avvio Fase 2: Fine-Tuning U-Net su gtFine
+[INFO] Train set: 2975 immagini | Val set: 500 immagini
+[INFO] Caricamento pesi coarse da: /hpc/home/aurora.felisari/project/checkpoints/unet_coarse_best.pth
+
+--- Epoca 1/30 ---
+[INFO] Train Loss: 0.2445 | Val mIoU: 0.5208 (52.08%) | LR: 1.00e-05
+[BEST] Nuovo best! mIoU=0.5208 -> /hpc/home/aurora.felisari/project/checkpoints/unet_fine_best.pth
+
+--- Epoca 2/30 ---
+[INFO] Train Loss: 0.2219 | Val mIoU: 0.5278 (52.78%) | LR: 1.00e-05
+[BEST] Nuovo best! mIoU=0.5278 -> /hpc/home/aurora.felisari/project/checkpoints/unet_fine_best.pth
+
+--- Epoca 3/30 ---
+[INFO] Train Loss: 0.2152 | Val mIoU: 0.5295 (52.95%) | LR: 1.00e-05
+[BEST] Nuovo best! mIoU=0.5295 -> /hpc/home/aurora.felisari/project/checkpoints/unet_fine_best.pth
+
+--- Epoca 4/30 ---
+[INFO] Train Loss: 0.2081 | Val mIoU: 0.5359 (53.59%) | LR: 1.00e-05
+[BEST] Nuovo best! mIoU=0.5359 -> /hpc/home/aurora.felisari/project/checkpoints/unet_fine_best.pth
+
+--- Epoca 5/30 ---
+[INFO] Train Loss: 0.2054 | Val mIoU: 0.5329 (53.29%) | LR: 1.00e-05
+
+--- Epoca 6/30 ---
+[INFO] Train Loss: 0.2012 | Val mIoU: 0.5482 (54.82%) | LR: 1.00e-05
+[BEST] Nuovo best! mIoU=0.5482 -> /hpc/home/aurora.felisari/project/checkpoints/unet_fine_best.pth
+
+--- Epoca 7/30 ---
+[INFO] Train Loss: 0.1991 | Val mIoU: 0.5362 (53.62%) | LR: 1.00e-05
+
+--- Epoca 8/30 ---
+[INFO] Train Loss: 0.1965 | Val mIoU: 0.5495 (54.95%) | LR: 1.00e-05
+[BEST] Nuovo best! mIoU=0.5495 -> /hpc/home/aurora.felisari/project/checkpoints/unet_fine_best.pth
+
+--- Epoca 9/30 ---
+[INFO] Train Loss: 0.1944 | Val mIoU: 0.5337 (53.37%) | LR: 1.00e-05
+
+--- Epoca 10/30 ---
+[INFO] Train Loss: 0.1924 | Val mIoU: 0.5420 (54.20%) | LR: 1.00e-05
+
+--- Epoca 11/30 ---
+[INFO] Train Loss: 0.1913 | Val mIoU: 0.5418 (54.18%) | LR: 1.00e-05
+
+--- Epoca 12/30 ---
+[INFO] Train Loss: 0.1887 | Val mIoU: 0.5416 (54.16%) | LR: 1.00e-05
+
+--- Epoca 13/30 ---
+[INFO] Train Loss: 0.1862 | Val mIoU: 0.5475 (54.75%) | LR: 5.00e-06
+
+--- Epoca 14/30 ---
+[INFO] Train Loss: 0.1841 | Val mIoU: 0.5427 (54.27%) | LR: 5.00e-06
+
+--- Epoca 15/30 ---
+[INFO] Train Loss: 0.1836 | Val mIoU: 0.5467 (54.67%) | LR: 5.00e-06
+
+--- Epoca 16/30 ---
+[INFO] Train Loss: 0.1831 | Val mIoU: 0.5468 (54.68%) | LR: 5.00e-06
+
+--- Epoca 17/30 ---
+[INFO] Train Loss: 0.1823 | Val mIoU: 0.5474 (54.74%) | LR: 5.00e-06
+
+--- Epoca 18/30 ---
+[INFO] Train Loss: 0.1809 | Val mIoU: 0.5492 (54.92%) | LR: 2.50e-06
+
+--- Epoca 19/30 ---
+[INFO] Train Loss: 0.1792 | Val mIoU: 0.5535 (55.35%) | LR: 2.50e-06
+[BEST] Nuovo best! mIoU=0.5535 -> /hpc/home/aurora.felisari/project/checkpoints/unet_fine_best.pth
+
+--- Epoca 20/30 ---
+[INFO] Train Loss: 0.1783 | Val mIoU: 0.5643 (56.43%) | LR: 2.50e-06
+[BEST] Nuovo best! mIoU=0.5643 -> /hpc/home/aurora.felisari/project/checkpoints/unet_fine_best.pth
+
+--- Epoca 21/30 ---
+[INFO] Train Loss: 0.1785 | Val mIoU: 0.5443 (54.43%) | LR: 2.50e-06
+
+--- Epoca 22/30 ---
+[INFO] Train Loss: 0.1781 | Val mIoU: 0.5529 (55.29%) | LR: 2.50e-06
+
+--- Epoca 23/30 ---
+[INFO] Train Loss: 0.1770 | Val mIoU: 0.5497 (54.97%) | LR: 2.50e-06
+
+--- Epoca 24/30 ---
+[INFO] Train Loss: 0.1773 | Val mIoU: 0.5461 (54.61%) | LR: 2.50e-06
+
+--- Epoca 25/30 ---
+[INFO] Train Loss: 0.1764 | Val mIoU: 0.5477 (54.77%) | LR: 1.25e-06
+
+--- Epoca 26/30 ---
+[INFO] Train Loss: 0.1769 | Val mIoU: 0.5571 (55.71%) | LR: 1.25e-06
+
+--- Epoca 27/30 ---
+[INFO] Train Loss: 0.1749 | Val mIoU: 0.5541 (55.41%) | LR: 1.25e-06
+
+--- Epoca 28/30 ---
+[INFO] Train Loss: 0.1763 | Val mIoU: 0.5591 (55.91%) | LR: 1.25e-06
+
+--- Epoca 29/30 ---
+[INFO] Train Loss: 0.1747 | Val mIoU: 0.5463 (54.63%) | LR: 1.25e-06
+
+--- Epoca 30/30 ---
+[INFO] Train Loss: 0.1755 | Val mIoU: 0.5587 (55.87%) | LR: 6.25e-07
+
+[DONE] Fine-tuning completato. Best Val mIoU: 0.5643

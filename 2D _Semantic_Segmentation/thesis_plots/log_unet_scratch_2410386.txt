@@ -1,0 +1,3 @@
+[CONFIG] Dispositivo rilevato: cuda
+[INFO] U-Net da Scratch — cuda
+[INFO] Batch effettivo: 16 (2 x 8 accumulation)

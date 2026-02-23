@@ -1,0 +1,10 @@
+================================================
+Job: DeepLabV3+ TRUE Fine-Tuning (ImageNet backbone)
+Host: wn42
+GPU: Tesla P100-PCIE-12GB
+Data: sab 21 feb 2026, 23.26.42, CET
+================================================
+/hpc/home/aurora.felisari/project/venv_hpc/bin/python3
+[CONFIG] Dispositivo rilevato: cuda
+[INFO] DeepLabV3+ TRUE Fine-Tuning (ImageNet backbone) — cuda
+[INFO] Backbone LR: 1e-05 | Classifier LR: 0.0001

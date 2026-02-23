@@ -1,0 +1,192 @@
+================================================
+Job: DeepLabV3+ TRUE Fine-Tuning (ImageNet backbone)
+Host: wn42
+GPU: Tesla P100-PCIE-12GB
+Data: sab 21 feb 2026, 23.32.56, CET
+================================================
+/hpc/home/aurora.felisari/project/venv_hpc/bin/python3
+[CONFIG] Dispositivo rilevato: cuda
+[INFO] DeepLabV3+ TRUE Fine-Tuning (ImageNet backbone) — cuda
+[INFO] Backbone LR: 1e-05 | Classifier LR: 0.0001
+[INFO] Train: 2975 immagini | Val: 500 immagini
+[INFO] Backbone pre-addestrato su ImageNet caricato. Head sostituita per 19 classi.
+
+--- Epoca 1/40 ---
+[INFO] Train Loss: 0.5805 | Val mIoU: 0.4441 (44.41%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+[BEST] mIoU=0.4441 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 2/40 ---
+[INFO] Train Loss: 0.2691 | Val mIoU: 0.6039 (60.39%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+[BEST] mIoU=0.6039 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 3/40 ---
+[INFO] Train Loss: 0.2195 | Val mIoU: 0.6199 (61.99%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+[BEST] mIoU=0.6199 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 4/40 ---
+[INFO] Train Loss: 0.1975 | Val mIoU: 0.6289 (62.89%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+[BEST] mIoU=0.6289 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 5/40 ---
+[INFO] Train Loss: 0.1812 | Val mIoU: 0.6776 (67.76%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+[BEST] mIoU=0.6776 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 6/40 ---
+[INFO] Train Loss: 0.1699 | Val mIoU: 0.6749 (67.49%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+
+--- Epoca 7/40 ---
+[INFO] Train Loss: 0.1605 | Val mIoU: 0.6674 (66.74%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+
+--- Epoca 8/40 ---
+[INFO] Train Loss: 0.1525 | Val mIoU: 0.6810 (68.10%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+[BEST] mIoU=0.6810 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 9/40 ---
+[INFO] Train Loss: 0.1484 | Val mIoU: 0.6855 (68.55%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+[BEST] mIoU=0.6855 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 10/40 ---
+[INFO] Train Loss: 0.1444 | Val mIoU: 0.6748 (67.48%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+
+--- Epoca 11/40 ---
+[INFO] Train Loss: 0.1388 | Val mIoU: 0.6887 (68.87%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+[BEST] mIoU=0.6887 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 12/40 ---
+[INFO] Train Loss: 0.1330 | Val mIoU: 0.6887 (68.87%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+[BEST] mIoU=0.6887 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 13/40 ---
+[INFO] Train Loss: 0.1295 | Val mIoU: 0.6899 (68.99%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+[BEST] mIoU=0.6899 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 14/40 ---
+[INFO] Train Loss: 0.1254 | Val mIoU: 0.6962 (69.62%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+[BEST] mIoU=0.6962 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 15/40 ---
+[INFO] Train Loss: 0.1241 | Val mIoU: 0.6936 (69.36%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+
+--- Epoca 16/40 ---
+[INFO] Train Loss: 0.1211 | Val mIoU: 0.7006 (70.06%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+[BEST] mIoU=0.7006 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 17/40 ---
+[INFO] Train Loss: 0.1180 | Val mIoU: 0.6949 (69.49%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+
+--- Epoca 18/40 ---
+[INFO] Train Loss: 0.1149 | Val mIoU: 0.6856 (68.56%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+
+--- Epoca 19/40 ---
+[INFO] Train Loss: 0.1133 | Val mIoU: 0.7072 (70.72%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+[BEST] mIoU=0.7072 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 20/40 ---
+[INFO] Train Loss: 0.1115 | Val mIoU: 0.7027 (70.27%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+
+--- Epoca 21/40 ---
+[INFO] Train Loss: 0.1095 | Val mIoU: 0.7077 (70.77%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+[BEST] mIoU=0.7077 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 22/40 ---
+[INFO] Train Loss: 0.1069 | Val mIoU: 0.6990 (69.90%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+
+--- Epoca 23/40 ---
+[INFO] Train Loss: 0.1049 | Val mIoU: 0.6953 (69.53%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+
+--- Epoca 24/40 ---
+[INFO] Train Loss: 0.1048 | Val mIoU: 0.6945 (69.45%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+
+--- Epoca 25/40 ---
+[INFO] Train Loss: 0.1021 | Val mIoU: 0.6974 (69.74%)
+       LR backbone: 1.00e-05 | LR classifier: 1.00e-04
+
+--- Epoca 26/40 ---
+[INFO] Train Loss: 0.1007 | Val mIoU: 0.6982 (69.82%)
+       LR backbone: 5.00e-06 | LR classifier: 5.00e-05
+
+--- Epoca 27/40 ---
+[INFO] Train Loss: 0.0966 | Val mIoU: 0.7019 (70.19%)
+       LR backbone: 5.00e-06 | LR classifier: 5.00e-05
+
+--- Epoca 28/40 ---
+[INFO] Train Loss: 0.0946 | Val mIoU: 0.7048 (70.48%)
+       LR backbone: 5.00e-06 | LR classifier: 5.00e-05
+
+--- Epoca 29/40 ---
+[INFO] Train Loss: 0.0932 | Val mIoU: 0.7089 (70.89%)
+       LR backbone: 5.00e-06 | LR classifier: 5.00e-05
+[BEST] mIoU=0.7089 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 30/40 ---
+[INFO] Train Loss: 0.0930 | Val mIoU: 0.7130 (71.30%)
+       LR backbone: 5.00e-06 | LR classifier: 5.00e-05
+[BEST] mIoU=0.7130 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 31/40 ---
+[INFO] Train Loss: 0.0914 | Val mIoU: 0.7012 (70.12%)
+       LR backbone: 5.00e-06 | LR classifier: 5.00e-05
+
+--- Epoca 32/40 ---
+[INFO] Train Loss: 0.0905 | Val mIoU: 0.6972 (69.72%)
+       LR backbone: 5.00e-06 | LR classifier: 5.00e-05
+
+--- Epoca 33/40 ---
+[INFO] Train Loss: 0.0900 | Val mIoU: 0.7042 (70.42%)
+       LR backbone: 5.00e-06 | LR classifier: 5.00e-05
+
+--- Epoca 34/40 ---
+[INFO] Train Loss: 0.0887 | Val mIoU: 0.7121 (71.21%)
+       LR backbone: 5.00e-06 | LR classifier: 5.00e-05
+
+--- Epoca 35/40 ---
+[INFO] Train Loss: 0.0885 | Val mIoU: 0.7124 (71.24%)
+       LR backbone: 2.50e-06 | LR classifier: 2.50e-05
+
+--- Epoca 36/40 ---
+[INFO] Train Loss: 0.0866 | Val mIoU: 0.7131 (71.31%)
+       LR backbone: 2.50e-06 | LR classifier: 2.50e-05
+[BEST] mIoU=0.7131 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+--- Epoca 37/40 ---
+[INFO] Train Loss: 0.0854 | Val mIoU: 0.7123 (71.23%)
+       LR backbone: 2.50e-06 | LR classifier: 2.50e-05
+
+--- Epoca 38/40 ---
+[INFO] Train Loss: 0.0848 | Val mIoU: 0.7103 (71.03%)
+       LR backbone: 2.50e-06 | LR classifier: 2.50e-05
+
+--- Epoca 39/40 ---
+[INFO] Train Loss: 0.0844 | Val mIoU: 0.7092 (70.92%)
+       LR backbone: 2.50e-06 | LR classifier: 2.50e-05
+
+--- Epoca 40/40 ---
+[INFO] Train Loss: 0.0842 | Val mIoU: 0.7139 (71.39%)
+       LR backbone: 2.50e-06 | LR classifier: 2.50e-05
+[BEST] mIoU=0.7139 -> /hpc/home/aurora.felisari/project/checkpoints/deeplab_pretrained_best.pth
+
+[DONE] Fine-tuning completato. Best Val mIoU: 0.7139
