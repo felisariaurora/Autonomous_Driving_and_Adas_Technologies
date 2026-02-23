@@ -1,4 +1,4 @@
-# 🚗 Semantic Segmentation for ADAS: U-Net vs DeepLabV3+
+# Semantic Segmentation for ADAS: U-Net vs DeepLabV3+
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c?logo=pytorch&logoColor=white)
@@ -6,19 +6,19 @@
 ![Dataset](https://img.shields.io/badge/Dataset-Cityscapes-orange)
 ![Classes](https://img.shields.io/badge/Classes-19-blueviolet)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-![Status](https://img.shields.io/badge/Status-Work%20In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Course](https://img.shields.io/badge/Course-ADAS-informational)
 ![University](https://img.shields.io/badge/University-UniPR-darkblue)
 
 <p align="center">
-  <a href="#-project-overview">🇺🇸 <b>English Version</b></a> &nbsp;|&nbsp;
-  <a href="#-descrizione-del-progetto">🇮🇹 <b>Versione Italiana</b></a>
+  <a href="#-project-overview"> <b>English Version</b></a> &nbsp;|&nbsp;
+  <a href="#-descrizione-del-progetto"> <b>Versione Italiana</b></a>
 </p>
 
 ---
 
 <a name="-project-overview"></a>
-## 🇺🇸 Project Overview
+## Project Overview
 
 This repository contains the implementation and experimental results for the **2D Semantic Segmentation** project.
 
@@ -26,7 +26,7 @@ The project performs a systematic comparison between two major deep learning arc
 
 ---
 
-### 🎯 Key Goals
+### Key Goals
 
 1. **Architecture Comparison** — Evaluate the trade-off between U-Net (lightweight, ~31M params) and DeepLabV3+ (state-of-the-art, ~63M params) on the same benchmark.
 2. **Training Strategy Study** — Investigate three strategies: training from scratch, Coarse-to-Fine transfer, and ImageNet pretrained fine-tuning.
@@ -35,7 +35,7 @@ The project performs a systematic comparison between two major deep learning arc
 
 ---
 
-### 🏗 Architectures
+### Architectures
 
 #### U-Net (from scratch)
 A fully custom encoder-decoder network with skip connections, implemented from scratch in PyTorch.
@@ -53,13 +53,13 @@ State-of-the-art segmentation model using Atrous Spatial Pyramid Pooling (ASPP).
 
 ---
 
-### 📋 Training Strategies
+### Training Strategies
 
 | Strategy | Dataset | Starting Point | Epochs | Notes |
 |---|---|---|---|---|
 | **Scratch** | gtFine | Random weights | 50 | Baseline for both models |
 | **Coarse → Fine** | gtCoarse → gtFine | Random → internal transfer | 50 + 30 | Official Cityscapes benchmark approach |
-| **Pretrained** ⭐ | gtFine | **ImageNet backbone** | 40 | True fine-tuning; classifier head replaced for 19 classes |
+| **Pretrained** | gtFine | **ImageNet backbone** | 40 | True fine-tuning; classifier head replaced for 19 classes |
 
 **Common training details:**
 - **Augmentation**: Random horizontal flip (50%), random scale+crop (75–125%), color jitter
@@ -76,13 +76,15 @@ State-of-the-art segmentation model using Atrous Spatial Pyramid Pooling (ASPP).
 
 | Model | mIoU | Pixel Accuracy |
 |---|---|---|
-| U-Net — Scratch | [XX.X%] | [XX.X%] |
-| U-Net — Coarse→Fine | [XX.X%] | [XX.X%] |
-| DeepLabV3+ — Scratch | [XX.X%] | [XX.X%] |
-| DeepLabV3+ — Coarse→Fine | [XX.X%] | [XX.X%] |
-| **DeepLabV3+ — Pretrained** ⭐ | **[XX.X%]** | **[XX.X%]** |
+| U-Net — Scratch | 57.44% | 93.05% |
+| U-Net — Coarse→Fine | 57.70% | 93.06% |
+| DeepLabV3+ — Coarse | 63.26% | 92.11% |
+| DeepLabV3+ — Coarse→Fine | 70.34% | 94.83% |
+| DeepLabV3+ — Pretrained | 73.00% | 95.02% |
+| **DeepLabV3+ — Scratch** | **74.20%** | **95.33%** |
 
 > Results computed on the Cityscapes validation set (500 images, 19 classes, `ignore_index=255`).
+> Evaluated with `evaluate_metrics.py` using the best checkpoint (max val mIoU) for each model.
 
 #### Qualitative — Visual Comparison
 
@@ -115,15 +117,15 @@ State-of-the-art segmentation model using Atrous Spatial Pyramid Pooling (ASPP).
 │   ├── train_deeplab_coarse.py         # DeepLab — Coarse phase
 │   ├── train_deeplab_fine.py           # DeepLab — Fine-tuning
 │   ├── train_deeplab_scratch.py        # DeepLab — Scratch
-│   ├── train_deeplab_pretrained.py     # DeepLab — ImageNet pretrained ⭐
-│   ├── submit_all.sh                   # 🚀 Submit all jobs with dependencies
+│   ├── train_deeplab_pretrained.py     # DeepLab — ImageNet pretrained
+│   ├── submit_all.sh                   # Submit all jobs with dependencies
 │   ├── run_coarse.sh                   # SLURM — U-Net Coarse
 │   ├── run_fine.sh                     # SLURM — U-Net Fine
 │   ├── run_unet_scratch.sh             # SLURM — U-Net Scratch
 │   ├── run_deeplab_coarse.sh           # SLURM — DeepLab Coarse
 │   ├── run_deeplab_fine.sh             # SLURM — DeepLab Fine
 │   ├── run_deeplab_scratch.sh          # SLURM — DeepLab Scratch
-│   └── run_deeplab_pretrained.sh       # SLURM — DeepLab Pretrained ⭐
+│   └── run_deeplab_pretrained.sh       # SLURM — DeepLab Pretrained
 │
 ├── 📁 checkpoints/                     # Trained model weights (.pth) — not tracked by git
 ├── 📁 data/                            # Cityscapes dataset — not tracked by git
@@ -139,7 +141,7 @@ State-of-the-art segmentation model using Atrous Spatial Pyramid Pooling (ASPP).
 
 ---
 
-### 🚀 Usage
+### Usage
 
 #### 1. Local Inference (Requires `.pth` checkpoints)
 
@@ -203,7 +205,7 @@ pip install -r requirements.txt
 
 ---
 
-### 🔑 Key Implementation Details
+### Key Implementation Details
 
 - **Class imbalance** handled via ENet-derived weights passed to `CrossEntropyLoss`
 - **Augmentation** applied synchronously on image and mask using `torchvision.transforms.functional`
@@ -213,17 +215,7 @@ pip install -r requirements.txt
 
 ---
 
-### 📚 References
-
-1. Ronneberger et al., *U-Net: Convolutional Networks for Biomedical Image Segmentation*, MICCAI 2015
-2. Chen et al., *Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation* (DeepLabV3+), ECCV 2018
-3. Cordts et al., *The Cityscapes Dataset for Semantic Urban Scene Understanding*, CVPR 2016
-4. Paszke et al., *ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation*, arXiv 2016
-5. He et al., *Deep Residual Learning for Image Recognition* (ResNet), CVPR 2016
-
----
-
-### 👤 Author
+### Author
 
 **Aurora Felisari**
 Università di Parma — Advanced Driver Assistance Systems
@@ -233,14 +225,15 @@ Università di Parma — Advanced Driver Assistance Systems
 ---
 
 <a name="-descrizione-del-progetto"></a>
-## 🇮🇹 Descrizione del Progetto
+## Descrizione del Progetto
 
 Questa repository contiene l'implementazione e i risultati sperimentali del progetto di **Segmentazione Semantica 2D**.
+
 Il progetto confronta sistematicamente due architetture di deep learning — **U-Net** (implementata da zero) e **DeepLabV3+** (con diverse strategie di training) — applicate al [dataset Cityscapes](https://www.cityscapes-dataset.com/) per la classificazione a livello di pixel di scene urbane.
 
 ---
 
-### 🎯 Obiettivi Principali
+### Obiettivi Principali
 
 1. **Confronto Architetturale** — Analisi del compromesso tra U-Net (leggera, ~31M parametri) e DeepLabV3+ (stato dell'arte, ~63M parametri) sullo stesso benchmark.
 2. **Studio delle Strategie di Training** — Confronto tra training da zero, transfer Coarse→Fine e fine-tuning con backbone ImageNet pretrained.
@@ -249,7 +242,7 @@ Il progetto confronta sistematicamente due architetture di deep learning — **U
 
 ---
 
-### 🏗 Architetture
+### Architetture
 
 #### U-Net (da zero)
 Rete encoder-decoder con skip connections, implementata completamente da zero in PyTorch.
@@ -267,13 +260,13 @@ Modello all'avanguardia per la segmentazione che utilizza l'Atrous Spatial Pyram
 
 ---
 
-### 📋 Strategie di Training
+### Strategie di Training
 
 | Strategia | Dataset | Punto di partenza | Epoche | Note |
 |---|---|---|---|---|
 | **Scratch** | gtFine | Pesi random | 50 | Baseline per entrambi i modelli |
 | **Coarse → Fine** | gtCoarse → gtFine | Random → transfer interno | 50 + 30 | Approccio ufficiale del paper Cityscapes |
-| **Pretrained** ⭐ | gtFine | **Backbone ImageNet** | 40 | Vero fine-tuning; head sostituita per 19 classi |
+| **Pretrained** | gtFine | **Backbone ImageNet** | 40 | Vero fine-tuning; head sostituita per 19 classi |
 
 **Dettagli comuni:**
 - **Augmentation**: Random horizontal flip (50%), random scale+crop (75–125%), color jitter
@@ -284,23 +277,25 @@ Modello all'avanguardia per la segmentazione che utilizza l'Atrous Spatial Pyram
 
 ---
 
-### 📊 Risultati
+### Risultati
 
 #### Quantitativi — mIoU e Pixel Accuracy
 
 | Modello | mIoU | Pixel Accuracy |
 |---|---|---|
-| U-Net — Scratch | [XX.X%] | [XX.X%] |
-| U-Net — Coarse→Fine | [XX.X%] | [XX.X%] |
-| DeepLabV3+ — Scratch | [XX.X%] | [XX.X%] |
-| DeepLabV3+ — Coarse→Fine | [XX.X%] | [XX.X%] |
-| **DeepLabV3+ — Pretrained** ⭐ | **[XX.X%]** | **[XX.X%]** |
+| U-Net — Scratch | 57.44% | 93.05% |
+| U-Net — Coarse→Fine | 57.70% | 93.06% |
+| DeepLabV3+ — Coarse | 63.26% | 92.11% |
+| DeepLabV3+ — Coarse→Fine | 70.34% | 94.83% |
+| DeepLabV3+ — Pretrained | 73.00% | 95.02% |
+| **DeepLabV3+ — Scratch** | **74.20%** | **95.33%** |
 
 > Risultati calcolati sul validation set di Cityscapes (500 immagini, 19 classi, `ignore_index=255`).
+> Valutato con `evaluate_metrics.py` usando il miglior checkpoint (max val mIoU) per ogni modello.
 
 ---
 
-### 🚀 Utilizzo
+### Utilizzo
 
 #### 1. Inferenza in locale (richiede i checkpoint `.pth`)
 
@@ -364,7 +359,7 @@ pip install -r requirements.txt
 
 ---
 
-### 🔑 Dettagli Implementativi
+### Dettagli Implementativi
 
 - **Sbilanciamento delle classi** gestito tramite class weights ENet nella `CrossEntropyLoss`
 - **Augmentation** applicata sincronizzata su immagine e maschera con `torchvision.transforms.functional`
@@ -374,17 +369,7 @@ pip install -r requirements.txt
 
 ---
 
-### 📚 Riferimenti
-
-1. Ronneberger et al., *U-Net: Convolutional Networks for Biomedical Image Segmentation*, MICCAI 2015
-2. Chen et al., *Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation* (DeepLabV3+), ECCV 2018
-3. Cordts et al., *The Cityscapes Dataset for Semantic Urban Scene Understanding*, CVPR 2016
-4. Paszke et al., *ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation*, arXiv 2016
-5. He et al., *Deep Residual Learning for Image Recognition* (ResNet), CVPR 2016
-
----
-
-### 👤 Autore
+### Autore
 
 **Aurora Felisari**
-Università di Parma 
+Università di Parma — Advanced Driver Assistance Systems
