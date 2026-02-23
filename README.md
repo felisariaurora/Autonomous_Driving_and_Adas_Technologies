@@ -12,7 +12,7 @@ The course is held at the **Department of Engineering and Architecture**, Univer
 
 ---
 
-## 📚 Course Overview
+## Course Overview
 
 The course covers the fundamental aspects of autonomous driving systems, moving from sensor physics to decision-making algorithms.
 
@@ -31,7 +31,7 @@ The repository is organized as follows:
 ### 📄 `appunti.pdf`
 **Complete Course Notes** A comprehensive PDF document containing re-elaborated lecture notes. It covers the entire syllabus, including mathematical formulations for calibration, state estimation, and deep learning architectures applied to automotive tasks.
 
-### 💻 `/2D_Semantic_Segmentation`
+### 📂 `/2D_Semantic_Segmentation`
 **Final Project: 2D Semantic Segmentation for ADAS** This folder contains the source code and resources for the exam project. The goal of the project is to perform semantic segmentation on road scenes to identify drivable areas, obstacles, and lanes.
 
 * **Techniques:** [Inserisci qui, es: Deep Learning / U-Net / ResNet]
@@ -41,15 +41,15 @@ The repository is organized as follows:
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 These materials are personal notes gathered during the course and may contain errors or simplifications. They are intended as a support for study and not as a substitute for official course materials provided by the professor.
 
 ---
 
-## 👤 Author
+## Author
 
 * **Felisari Aurora**
-  * 🔗 [LinkedIn Profile](https://www.linkedin.com/in/(https://www.linkedin.com/in/aurora-felisari/))
-  * 🐙 [GitHub Profile](https://github.com/felisariaurora)
+  *  [LinkedIn Profile](https://www.linkedin.com/in/(https://www.linkedin.com/in/aurora-felisari/))
+  *  [GitHub Profile](https://github.com/felisariaurora)
 
