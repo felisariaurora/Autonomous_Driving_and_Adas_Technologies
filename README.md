@@ -34,11 +34,6 @@ The repository is organized as follows:
 ### 📂 `/2D_Semantic_Segmentation`
 **Final Project: 2D Semantic Segmentation for ADAS** This folder contains the source code and resources for the exam project. The goal of the project is to perform semantic segmentation on road scenes to identify drivable areas, obstacles, and lanes.
 
-* **Techniques:** [Inserisci qui, es: Deep Learning / U-Net / ResNet]
-* **Frameworks:** [Inserisci qui, es: Python, PyTorch / TensorFlow, OpenCV]
-* **Dataset:** [Inserisci qui, es: Cityscapes / KITTI / Custom]
-
-
 ---
 
 ## Disclaimer
