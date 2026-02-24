@@ -86,12 +86,6 @@ State-of-the-art segmentation model using Atrous Spatial Pyramid Pooling (ASPP).
 > Results computed on the Cityscapes validation set (500 images, 19 classes, `ignore_index=255`).
 > Evaluated with `evaluate_metrics.py` using the best checkpoint (max val mIoU) for each model.
 
-#### Qualitative — Visual Comparison
-
-| Input Image | Ground Truth | U-Net (Fine) | DeepLab (Pretrained) |
-|:-----------:|:------------:|:------------:|:--------------------:|
-| *(see results_comparison/)* | | | |
-
 ---
 
 ### 📂 Repository Structure
@@ -131,7 +125,7 @@ State-of-the-art segmentation model using Atrous Spatial Pyramid Pooling (ASPP).
 ├── 📁 data/                            # Cityscapes dataset — not tracked by git
 ├── 📁 results_comparison/              # Visual segmentation outputs
 ├── 📁 thesis_plots/                    # Training curves and logs
-├── 📁 presentation/                    # Slide content and speaker notes
+├── 📁 presentation/                    # Slide content 
 │
 ├── 📄 evaluate_metrics.py              # Full benchmark on val set
 ├── 📄 predict_all.py                   # Inference + visualization
